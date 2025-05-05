@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-#from streamlit_gsheets import GSheetsConnection
+from streamlit_gsheets import GSheetsConnection
 from st_gsheets_connection import GSheetsConnection
 #from zmq.backend.cffi.socket import new_binary_data
 import gspread
