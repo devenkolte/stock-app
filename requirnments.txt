@@ -4,4 +4,4 @@ pandas
 seaborn
 plotly
 matplotlib
-streamlit_gsheets
+
