@@ -30,40 +30,6 @@ st.title("Welcome to Stock Analysis App")
 #establishing a connection \
 conn = st.connection("gsheets", type = GSheetsConnection)
 
-#connect and fetch avtual file
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-import json
-
-# Use secrets from Streamlit
-#creds_dict = st.secrets["gcp_service_account"]
-#with open("stock-456405-ac0717bd636f.json") as f:
-    #creds_dict = json.load(f)
-#creds = ServiceAccountCredentials.from_json_keyfile_dict(creds_dict, scope)
-
-#client = gspread.authorize(creds)
-
-# Open the spreadsheet
-#sheet = client.open("Stock_App")
-
-# List all worksheet names
-#worksheet_names = [ws.title for ws in sheet.worksheets()]
-
 #fetching the data
 
 #fetching the list name
