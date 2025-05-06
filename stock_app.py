@@ -1,10 +1,6 @@
 import streamlit as st
 import pandas as pd
 from streamlit_gsheets import GSheetsConnection
-from st_gsheets_connection import GSheetsConnection
-#from zmq.backend.cffi.socket import new_binary_data
-import gspread
-from oauth2client.service_account import ServiceAccountCredentials
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
